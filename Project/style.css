@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://c4.wallpaperflare.com/wallpaper/977/548/906/beach-water-pier-tropical-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: 1400px 660px;
+}
+ul{
+    list-style-type: none;
+    float: right;
+}
+ul li{
+    display:inline-block;
+    margin-top:10px;
+    margin-right:10px;
+
+}
+ul li a{
+text-decoration: none;
+padding:5px 20px;
+border:1px solid transparent;
+transition: 0.6s ease;
+color:#fff
+
+}
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}
+.main{
+    max-width:1200px;
+    margin:auto;
+}
+.title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color:#fff;
+    font-size:70px;
+}
+.button{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border:1px solid #fff;
+    color:#fff;
+    padding:10px 30px;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color:#000;
+}
